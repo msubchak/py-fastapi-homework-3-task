@@ -3,7 +3,6 @@ from typing import cast
 
 from fastapi import APIRouter, Depends, status, HTTPException
 from fastapi.security import OAuth2PasswordBearer
-from fastapi.security import OAuth2PasswordBearer
 from pydantic import BaseModel, EmailStr, constr, validator
 from sqlalchemy import select, delete
 from sqlalchemy.exc import SQLAlchemyError
